@@ -47,6 +47,7 @@ Kør scriptet og print resultatet
     source ./skattematch.sh $POSITIVLISTE $NORDNET $BRUGBAR
 
 ## Step 5b: Kør som 'Python' script
+Alternativt (hvis du ikke kører 'bash') - kør som Python script:
 
     python3 skattematch.py $POSITIVLISTE $NORDNET $BRUGBAR
 
@@ -55,4 +56,4 @@ Se resultatet som tekst
 
     cat $BRUGBAR
 
-Importer resultatfilen i regneark. Jeg bruger LibreOffice Calc
+Importer resultatfilen i regneark (f.eks. LibreOffice Calc). Nu kan du se de værdipapirer der er egnede til Aktisparekonto.
